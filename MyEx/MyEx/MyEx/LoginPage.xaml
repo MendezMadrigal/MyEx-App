@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             ios:Page.UseSafeArea="True"
+             x:Class="MyEx.LoginPage"
+             NavigationPage.HasNavigationBar="False">
+    
+    
+    <ContentPage.Content>
+
+
+        <Grid RowSpacing="0" BackgroundColor="#EBF5FB">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+
+            </Grid.RowDefinitions>
+
+            <Label x:Name="Title"
+                   Text="M"
+                   FontSize="100"
+                   TextColor="#566573"
+                   FontFamily="IndieFlower" 
+                   HorizontalOptions="Center"
+                   Grid.Row="0"
+                   Grid.Column="0"
+                   Margin="-260,0,0,0"
+                   />
+
+            
+
+            <Label x:Name="Welcom"
+                   Text="Bienvenido,"
+                   FontSize="28"
+                   TextColor="#566573"
+                   HorizontalOptions="Center"
+                   Grid.Row="1"
+                   Grid.Column="0"
+                   Margin="-165,-30,0,0"
+                   />
+
+            <Label x:Name="Sign"
+                   Text="Inicio de sesión"
+                   FontSize="15"
+                   TextColor="#566573"
+                   HorizontalOptions="Center"
+                   Grid.Row="2"
+                   Grid.Column="0"
+                   Margin="-200,0,0,0"
+                   />
+
+            <Entry x:Name="EmailEntry"
+                   Placeholder="Email"
+                   Margin="40,260,40,0"
+                   Keyboard="Email"
+                   Grid.Row="3"
+                   Grid.Column="0"
+                       
+                   />
+
+                <Entry x:Name="PasswordEntry"
+                   Placeholder="Contraseña"
+                   Margin="40,10,40,0"
+                   IsPassword="True"
+                   Grid.Row="4"
+                   Grid.Column="0"
+                   
+                   />
+
+            <Button x:Name ="ForgetPassword"
+                    Text="Olvidé mi contraseña"
+                    HeightRequest="35"
+                    BorderRadius="100"
+                    Grid.Row="5"
+                    FontSize="12"
+                    Clicked="ForgetPassword_Clicked"
+                    BackgroundColor="#0000ffff"
+                    Margin="170,10,0,10"
+                    />
+            <Button x:Name ="LoginButton"
+                    Text="Continuar"
+                    BackgroundColor="#EA3A7A"
+                    Grid.Row="6"
+                    HeightRequest="40"
+                    FontSize="13"
+                    Margin="40,0,40,0"
+                    TextColor="#EBF5FB"
+                    Clicked="LoginButton_Clicked"
+                    />
+
+            <Label x:Name="miembro"
+                   Text="¿No eres miembro?"
+                   FontSize="13"
+                   HorizontalOptions="Center"
+                   Grid.Row="8"
+                   FontAttributes="Bold"
+                   Margin="-80,-28,0,0"
+                   />
+
+            <Button x:Name ="SignUp"
+                    Text="Registrate"
+                    PropertyChanged=""
+                    BorderRadius="100"
+                    BackgroundColor="#0000ffff"
+                    HeightRequest="40"
+                    BorderWidth="1"
+                    Grid.Row="7"
+                    FontAttributes="Bold"
+                    FontSize="12"
+                    Margin="112,10,0,0"
+                    TextColor="#EA3A7A"
+                    Clicked="SignUp_Clicked"
+                    />
+
+
+
+
+
+
+
+
+
+        </Grid>
+
+           
+        
+    </ContentPage.Content>
+</ContentPage>
