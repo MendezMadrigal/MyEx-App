@@ -24,7 +24,7 @@ namespace MyEx
 
         private void submit_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new RecoveryPasswordTokenPage());
         }
     }//end class
 }

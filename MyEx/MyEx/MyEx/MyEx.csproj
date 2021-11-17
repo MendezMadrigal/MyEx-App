@@ -12,11 +12,13 @@
 
   <ItemGroup>
     <None Remove="Assets\Images\ForgotetnPassword\forgot-password.png" />
+    <None Remove="Assets\Images\RecoveryPassword\email-verification.png" />
     <None Remove="Resources\Fonts\IndieFlower.ttf" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Assets\Images\ForgotetnPassword\forgot-password.png" />
+    <EmbeddedResource Include="Assets\Images\RecoveryPassword\email-verification.png" />
     <EmbeddedResource Include="Resources\Fonts\IndieFlower.ttf" />
   </ItemGroup>
 
@@ -39,6 +41,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Master.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RecoveryPasswordTokenPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="SignUpPage.xaml">
