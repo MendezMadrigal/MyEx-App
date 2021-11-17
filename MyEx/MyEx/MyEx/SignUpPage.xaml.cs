@@ -16,5 +16,20 @@ namespace MyEx
         {
             InitializeComponent();
         }
+
+        private void femaleGenderCheckBox_CheckedChanged(object sender, CheckedChangedEventArgs e)
+        {
+
+        }
+
+        private void maleGenderCheckBox_CheckedChanged(object sender, CheckedChangedEventArgs e)
+        {
+
+        }
+
+        private void otherGenderCheckBox_CheckedChanged(object sender, CheckedChangedEventArgs e)
+        {
+
+        }
     }
 }

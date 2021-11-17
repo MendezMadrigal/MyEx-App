@@ -1,12 +1,127 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MyEx.SignUpPage">
+             x:Class="MyEx.SignUpPage"
+             Title="Registro"
+             >
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Sign Up Page!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+
+        <Grid RowSpacing="0" Background="#EBF5FB">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Entry x:Name="userName"
+                   Placeholder="Nombre de usuario"
+                   Keyboard="Text"
+                   Grid.Row="0"
+                   Margin="40,120,40,0"
+            />
+
+            <Entry x:Name="email"
+                   Placeholder="Correo Electrónico"
+                   Keyboard="Email"
+                   Grid.Row="1"
+                   Margin="40,13,40,0"
+             />
+            
+            <Entry x:Name="retypeEmail"
+                   Placeholder="Confirmar Correo Electrónico"
+                   Keyboard="Email"
+                   Grid.Row="2"
+                   Margin="40,13,40,0"
+             />
+
+            <Entry x:Name="password"
+                   Placeholder="Contraseña"
+                   IsPassword="True"
+                   Grid.Row="3"
+                   Margin="40,13,40,0"
+             />
+            
+            <Entry x:Name="ReTypePassword"
+                   Placeholder="Confirmar Contraseña    "
+                   IsPassword="True"
+                   Grid.Row="4"
+                   Margin="40,13,40,0"
+             />
+
+            <Label x:Name="gender"
+                   Text="Género"
+                   Grid.Row="5"
+                   Margin="40,10,40,0"
+                   
+            />
+
+            <CheckBox x:Name="femaleGenderCheckBox"
+                  Grid.Row="6" 
+                  Color="#EA3A7A"
+                  CheckedChanged="femaleGenderCheckBox_CheckedChanged"
+                  Margin="40,10,40,0"
+            />
+
+            <Label x:Name="female"
+                   Text="Mujer"
+                   Grid.Row="7"
+                   Margin="70,-27,40,0"
+                   
+             />
+
+            <CheckBox x:Name="maleGenderCheckBox"
+                  Grid.Row="8"  
+                  Color="#EA3A7A"
+                  CheckedChanged="maleGenderCheckBox_CheckedChanged"
+                  Margin="115,-31,40,0"
+            />
+
+            <Label x:Name="male"
+                   Text="Hombre"
+                   Grid.Row="9"
+                   Margin="145,-27,40,0"
+             />
+
+            <CheckBox x:Name="otherGenderCheckBox"
+                  Grid.Row="10"  
+                  Color="#EA3A7A"
+                  CheckedChanged="otherGenderCheckBox_CheckedChanged"
+                  Margin="202,-32,40,0"
+            />
+
+            <Label x:Name="other"
+                   Text="Otro"
+                   Grid.Row="11"
+                   Margin="232,-27,40,0"
+             />
+
+            <Button x:Name="Register"
+                    Text="Registrarse"
+                    BorderRadius ="100"
+                    BackgroundColor="#EA3A7A"
+                    HeightRequest="40"
+                    FontSize="12"
+                    TextColor="#EBF5FB"
+                    FontAttributes="Bold"
+                    Grid.Row="12"
+                    Margin="40,50,40,0"
+            />
+
+
+
+        </Grid> 
+        
+        
     </ContentPage.Content>
 </ContentPage>
