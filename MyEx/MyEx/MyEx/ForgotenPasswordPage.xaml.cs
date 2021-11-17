@@ -15,11 +15,16 @@ namespace MyEx
         public ForgotenPasswordPage()
         {
             InitializeComponent();
-        }
 
-        private void Ok_Clicked(object sender, EventArgs e)
+            var assembly = typeof(ForgotenPasswordPage);
+            forgotPasswordImage.Source = ImageSource.FromResource("MyEx.Assets.Images.ForgotetnPassword.forgot-password.png", assembly);
+        }//end constructor
+
+        
+
+        private void submit_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new LoginPage());
-        }//end Ok_Clicked
-    }
+
+        }
+    }//end class
 }

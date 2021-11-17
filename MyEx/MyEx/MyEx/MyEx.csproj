@@ -11,10 +11,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Images\ForgotetnPassword\forgot-password.png" />
     <None Remove="Resources\Fonts\IndieFlower.ttf" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Assets\Images\ForgotetnPassword\forgot-password.png" />
     <EmbeddedResource Include="Resources\Fonts\IndieFlower.ttf" />
   </ItemGroup>
 
