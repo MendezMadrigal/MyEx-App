@@ -108,7 +108,6 @@
 
             <Button x:Name ="SignUp"
                     Text="Registrate"
-                    PropertyChanged=""
                     BorderRadius="100"
                     BackgroundColor="#0000ffff"
                     HeightRequest="40"
