@@ -1,19 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyEx.Detail"
-             >
-    <ContentPage.Content  >
-        <StackLayout>
-            <Label Text="Welcome to  Deta9l"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" 
-                   />
-                
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            xmlns:local="clr-namespace:MyEx"
+            BarBackgroundColor="Red"
+            >
+
+
+
+    <NavigationPage.TitleView>
+        <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal" >
+            <SearchBar x:Name="searchBar"
+                       Margin="-20,0,0,0"
+                       BackgroundColor="#F8B9B6"
+                       HeightRequest="28"
+                       
+                       />
         </StackLayout>
-        
-    </ContentPage.Content>
+    </NavigationPage.TitleView>
+
     
     
     
-</ContentPage>
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem x:Name="moneyIcon"
+                     Text="Money"
+                     Icon="money.png"
+                     Clicked="moneyIcon_Clicked"
+                     />
+    </TabbedPage.ToolbarItems>
+
+
+
+    <local:Principal Title="f"/>
+    <local:Add Title="Add"/>
+    <local:Users Title="User"/>
+
+
+</TabbedPage>

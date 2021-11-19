@@ -4,5 +4,6 @@
     <SelectedDevice>prueba</SelectedDevice>
     <ActiveDebugProfile>prueba</ActiveDebugProfile>
     <DefaultDevice>prueba</DefaultDevice>
+    <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>

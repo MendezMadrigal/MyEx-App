@@ -7,15 +7,23 @@ using System.Drawing;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+
+
 namespace MyEx
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Detail : ContentPage
+    public partial class Detail : TabbedPage
     {
         public Detail()
         {
             InitializeComponent();
-           
+
+
+        }
+
+        private void moneyIcon_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 }

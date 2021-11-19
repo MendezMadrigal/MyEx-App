@@ -19,3 +19,6 @@ D:\Proyecto\MyEx\MyEx\MyEx\obj\Debug\netstandard2.0\SignUpPage.xaml.g.cs
 D:\Proyecto\MyEx\MyEx\MyEx\obj\Debug\netstandard2.0\Detail.xaml.g.cs
 D:\Proyecto\MyEx\MyEx\MyEx\obj\Debug\netstandard2.0\Master.xaml.g.cs
 D:\Proyecto\MyEx\MyEx\MyEx\obj\Debug\netstandard2.0\RecoveryPasswordTokenPage.xaml.g.cs
+D:\Proyecto\MyEx\MyEx\MyEx\obj\Debug\netstandard2.0\Add.xaml.g.cs
+D:\Proyecto\MyEx\MyEx\MyEx\obj\Debug\netstandard2.0\Principal.xaml.g.cs
+D:\Proyecto\MyEx\MyEx\MyEx\obj\Debug\netstandard2.0\Users.xaml.g.cs
