@@ -7003,14 +7003,9 @@ public final class R {
     public static final int toolbar=0x7f0b0072;
   }
   public static final class mipmap {
-    public static final int add=0x7f0c0000;
-    public static final int home=0x7f0c0001;
-    public static final int icon=0x7f0c0002;
-    public static final int icon_round=0x7f0c0003;
-    public static final int launcher_foreground=0x7f0c0004;
-    public static final int money=0x7f0c0005;
-    public static final int settings=0x7f0c0006;
-    public static final int user=0x7f0c0007;
+    public static final int icon=0x7f0c0000;
+    public static final int icon_round=0x7f0c0001;
+    public static final int launcher_foreground=0x7f0c0002;
   }
   public static final class plurals {
     public static final int mtrl_badge_content_description=0x7f0d0000;

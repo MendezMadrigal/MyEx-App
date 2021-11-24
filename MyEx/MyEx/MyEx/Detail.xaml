@@ -2,28 +2,27 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyEx.Detail"
-            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
-            android:TabbedPage.ToolbarPlacement="Bottom"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             android:TabbedPage.ToolbarPlacement="Bottom"
             xmlns:local="clr-namespace:MyEx"
-            BarBackgroundColor="Red"
+            BarBackgroundColor="#F9F8F1"
+            BackgroundColor="#1A2023"
+            NavigationPage.IconColor="Black"
             >
 
-
+    
 
     <NavigationPage.TitleView>
         <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal" >
             <SearchBar x:Name="searchBar"
                        Margin="-20,0,0,0"
-                       BackgroundColor="#F8B9B6"
+                       BackgroundColor="#E0E4DA"
                        HeightRequest="28"
                        
                        />
         </StackLayout>
     </NavigationPage.TitleView>
 
-    
-    
-    
     <TabbedPage.ToolbarItems>
         <ToolbarItem x:Name="moneyIcon"
                      Text="Money"
@@ -33,10 +32,10 @@
     </TabbedPage.ToolbarItems>
 
 
+    <local:Principal Icon="home.png"/>
+    <local:Add Icon="add.png"/>
+    <local:Users Icon="user.png"/>
 
-    <local:Principal Title="f"/>
-    <local:Add Title="Add"/>
-    <local:Users Title="User"/>
-
+    
 
 </TabbedPage>

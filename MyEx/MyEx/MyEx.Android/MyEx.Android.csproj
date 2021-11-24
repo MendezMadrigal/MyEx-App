@@ -70,12 +70,9 @@
   <ItemGroup>
     <AndroidResource Include="Resources\values\styles.xml" />
     <AndroidResource Include="Resources\values\colors.xml" />
-    <AndroidResource Include="Resources\mipmap-anydpi-v26\icon.xml" />
     <AndroidResource Include="Resources\mipmap-anydpi-v26\icon_round.xml" />
-    <AndroidResource Include="Resources\mipmap-hdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-hdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-mdpi\icon.png" />
-    <AndroidResource Include="Resources\mipmap-mdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxhdpi\icon.png" />
@@ -84,97 +81,58 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\add.png" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\MyEx\MyEx.csproj">
       <Project>{B4FA2E9D-7770-4E47-BCFA-9EE067454E25}</Project>
       <Name>MyEx</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-hdpi\money.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\add.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-mdpi\money.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\add.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xhdpi\money.png" />
+    <AndroidResource Include="Resources\drawable\add.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xxhdpi\money.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\add.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xxxhdpi\money.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-hdpi\settings.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-mdpi\settings.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xhdpi\settings.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xxhdpi\settings.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xxxhdpi\settings.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\money.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-hdpi\add.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-mdpi\add.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xhdpi\add.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xxhdpi\add.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xxxhdpi\add.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\home.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-hdpi\home.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-mdpi\home.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xhdpi\home.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xxhdpi\home.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xxxhdpi\home.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\user.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\user.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-hdpi\user.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\user.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-mdpi\user.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\user.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xhdpi\user.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\money.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xxhdpi\user.png" />
+    <AndroidResource Include="Resources\drawable\money.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xxxhdpi\user.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xxhdpi\money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xhdpi\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xxhdpi\home.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

@@ -10,7 +10,7 @@
     <ContentPage.Content>
 
 
-        <Grid RowSpacing="0" BackgroundColor="#EBF5FB">
+        <Grid RowSpacing="0" BackgroundColor="#F9F8F1">
 
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>

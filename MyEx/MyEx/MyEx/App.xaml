@@ -4,8 +4,9 @@
              x:Class="MyEx.App">
     <Application.Resources>
         <Style TargetType="NavigationPage">
-            <Setter Property="BarBackgroundColor" Value="#F8837D"></Setter>
+            <Setter Property="BarBackgroundColor" Value="#F9F8F1"></Setter>
             
         </Style>
+        
     </Application.Resources>
 </Application>

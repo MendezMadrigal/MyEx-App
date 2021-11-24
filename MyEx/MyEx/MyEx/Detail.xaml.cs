@@ -23,7 +23,9 @@ namespace MyEx
 
         private void moneyIcon_Clicked(object sender, EventArgs e)
         {
-
+            searchBar.IsVisible = true;
         }
+
+        
     }
 }
