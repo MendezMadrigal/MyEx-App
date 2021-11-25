@@ -15,6 +15,11 @@ namespace MyEx
         public Add()
         {
             InitializeComponent();
+
+            var assembly = typeof(Add);
+            addImage.Source = ImageSource.FromResource("MyEx.Assets.Images.Add.alzarLaVozADD.png", assembly);
         }
+
+        
     }
 }

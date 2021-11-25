@@ -21,11 +21,19 @@ namespace MyEx
 
         }
 
-        private void moneyIcon_Clicked(object sender, EventArgs e)
+        private void Add_Appearing(object sender, EventArgs e)
         {
-            searchBar.IsVisible = true;
-        }
+            NavigationPage.SetHasNavigationBar(this, false);
+        }//end
 
-        
+        private void Users_Appearing(object sender, EventArgs e)
+        {
+            NavigationPage.SetHasNavigationBar(this, false);
+        }//end
+
+        private void Principal_Appearing(object sender, EventArgs e)
+        {
+            NavigationPage.SetHasNavigationBar(this, true);
+        }
     }
 }

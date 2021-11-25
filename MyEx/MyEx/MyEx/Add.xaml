@@ -5,10 +5,25 @@
              BackgroundColor="#F9F8F1"
              >
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Add!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+
+        <Grid RowSpacing="0" BackgroundColor="#F9F8F1">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Image x:Name="addImage"
+                   Aspect="AspectFit"
+                   HorizontalOptions="FillAndExpand"
+                   Grid.Row="0"
+                   HeightRequest="200"
+                   
+                   />
+
+
+
+
+        </Grid>
+        
     </ContentPage.Content>
 </ContentPage>

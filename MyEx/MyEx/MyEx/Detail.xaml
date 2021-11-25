@@ -8,6 +8,7 @@
             BarBackgroundColor="#F9F8F1"
             BackgroundColor="#1A2023"
             NavigationPage.IconColor="Black"
+            
             >
 
     
@@ -20,6 +21,7 @@
                        HeightRequest="28"
                        
                        />
+            
         </StackLayout>
     </NavigationPage.TitleView>
 
@@ -27,14 +29,18 @@
         <ToolbarItem x:Name="moneyIcon"
                      Text="Money"
                      Icon="money.png"
-                     Clicked="moneyIcon_Clicked"
                      />
     </TabbedPage.ToolbarItems>
 
 
-    <local:Principal Icon="home.png"/>
-    <local:Add Icon="add.png"/>
-    <local:Users Icon="user.png"/>
+    <local:Principal Icon="home.png"
+                     Appearing="Principal_Appearing"/>
+    
+    <local:Add Icon="add.png"
+               Appearing="Add_Appearing"/>
+    
+    <local:Users Icon="user.png"
+                 Appearing="Users_Appearing"/>
 
     
 
