@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyEx.AddUserInformation"
+             xmlns:local="clr-namespace:MyEx"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+
+        <Grid RowSpacing="0" ColumnSpacing="0" BackgroundColor="#F9F8F1">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+               
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label x:Name="title"
+                   Text="Registro de datos."
+                   FontSize="20"
+                   TextColor="Black"
+                   FontAttributes="Bold,Italic"
+                   Grid.Row="0"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   Margin="20,45,0,0"
+                />
+
+            <local:CustomLabel x:Name="information"
+                   Text="Recuerda que la información proporcionada debe ser lo más exacta posible, así ayudarás a otras personas a encontrar a la misma persona con mayor facilidad, así como evitaremos tener varios Perfiles Públicos que indiquen a la misma persona."
+                   Grid.Row="1"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   Margin="20,40,30,0"
+                   LineHeight="1.4"
+                   FontSize="16"/>
+
+            <Entry x:Name="firstName"
+                   Placeholder="Primer Nombre"
+                   Grid.Row="2"
+                   Grid.Column="0"
+                   Margin="20,50,10,0"
+                   />
+
+            <Entry x:Name="secondName"
+                   Placeholder="Segundo Nombre"
+                   Grid.Row="2"
+                   Grid.Column="1"
+                    Margin="10,50,20,0"
+                   />
+
+            <Entry x:Name="firstLastName"
+                   Placeholder="Primer Apellido"
+                   Grid.Row="3"
+                   Grid.Column="0"
+                    Margin="20,30,10,0"
+                   />
+
+            <Entry x:Name="secondLastName"
+                   Placeholder="Segundo Apellido"
+                   Grid.Row="3"
+                   Grid.Column="1"
+                    Margin="10,30,20,0"/>
+
+            <Entry x:Name="age"
+                   Placeholder="Edad"
+                   Keyboard="Numeric"
+                   Grid.Row="4"
+                   Grid.Column="0"
+                    Margin="20,30,10,0"/>
+
+            <Picker x:Name="Gender"
+                    Title="Género"
+                    Grid.Row="4"
+                    Grid.Column="1"
+                     Margin="10,30,20,0"
+                />
+
+            <DatePicker x:Name="BirthDay"
+                        MinimumDate="12/31/1922"
+                        
+                        Grid.Row="5"
+                        Grid.Column="0"
+                        VerticalOptions="CenterAndExpand"
+                         Margin="20,30,10,0"/>
+
+            <Button x:Name="next"
+                    Text="Siguiente"
+                    HeightRequest="40"
+                    BorderRadius="100"
+                    FontSize="15"
+                    BackgroundColor="#EA3A7A"
+                    Grid.Row="6"
+                    Grid.Column="1"
+                    Margin="40,50,20,0"
+                />
+
+
+
+
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

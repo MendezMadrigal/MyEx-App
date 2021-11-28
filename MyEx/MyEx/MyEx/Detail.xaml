@@ -28,7 +28,7 @@
     <TabbedPage.ToolbarItems>
         <ToolbarItem x:Name="moneyIcon"
                      Text="Money"
-                     Icon="money.png"
+                     Icon="add.png"
                      />
     </TabbedPage.ToolbarItems>
 

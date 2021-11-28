@@ -18,8 +18,13 @@ namespace MyEx
 
             var assembly = typeof(Add);
             addImage.Source = ImageSource.FromResource("MyEx.Assets.Images.Add.alzarLaVozADD.png", assembly);
-        }
+            
+        }//end constructor
 
-        
-    }
+        private void AcceptButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AddUserInformation());
+        }//end AcceptButton_Clicked
+
+    }//end class
 }

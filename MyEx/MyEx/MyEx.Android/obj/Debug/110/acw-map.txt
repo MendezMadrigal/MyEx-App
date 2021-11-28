@@ -1,3 +1,6 @@
+MyEx.Droid.CustomLabelRender, MyEx.Android;crc64f322ca03cff7dd86.CustomLabelRender
+MyEx.Droid.CustomLabelRender;crc64f322ca03cff7dd86.CustomLabelRender
+myex.droid.CustomLabelRender;crc64f322ca03cff7dd86.CustomLabelRender
 MyEx.Droid.MainActivity, MyEx.Android;crc64f322ca03cff7dd86.MainActivity
 MyEx.Droid.MainActivity;crc64f322ca03cff7dd86.MainActivity
 myex.droid.MainActivity;crc64f322ca03cff7dd86.MainActivity

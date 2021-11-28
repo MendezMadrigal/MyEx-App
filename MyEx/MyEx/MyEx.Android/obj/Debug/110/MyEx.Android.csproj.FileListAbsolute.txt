@@ -587,3 +587,4 @@ D:\Proyecto\MyEx\MyEx\MyEx.Android\obj\Debug\110\res\drawable\home.png
 D:\Proyecto\MyEx\MyEx\MyEx.Android\obj\Debug\110\res\drawable-xhdpi\home.png
 D:\Proyecto\MyEx\MyEx\MyEx.Android\obj\Debug\110\res\drawable-xxhdpi\home.png
 D:\Proyecto\MyEx\MyEx\MyEx.Android\obj\Debug\110\MyEx.Android.csproj.CopyComplete
+D:\Proyecto\MyEx\MyEx\MyEx.Android\obj\Debug\110\android\src\crc64f322ca03cff7dd86\CustomLabelRender.java

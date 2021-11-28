@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MyEx"
              x:Class="MyEx.Add"
              BackgroundColor="#F9F8F1"
              >
@@ -10,20 +11,66 @@
 
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                
             </Grid.RowDefinitions>
 
-            <Image x:Name="addImage"
+
+            <Frame CornerRadius="30" Grid.Row="0" HeightRequest="225"  WidthRequest="225" HorizontalOptions="Center" Padding="0" BackgroundColor="#F9F8F1" BorderColor="Transparent" Margin="0,40,0,0">
+
+                <Image x:Name="addImage"
                    Aspect="AspectFit"
                    HorizontalOptions="FillAndExpand"
-                   Grid.Row="0"
                    HeightRequest="200"
-                   
+                  
                    />
+            </Frame>
+
+
+
+            <Label x:Name="Title"
+                   Text="¿Deseas agregar un perfil público?"
+                   FontSize="20"
+                   FontAttributes="Bold,Italic"
+                   TextColor="Black"
+                   HorizontalOptions="Center"
+                   Grid.Row="1"
+                   Margin="0,50,0,0"
+                   />
+
+
+            <local:CustomLabel x:Name="notice"
+                               Text="Recuerda que la creación de un perfil público se debe de tratar con seriedad y que toda afirmación hecha dentro de el será contemplada por los usuarios como una afirmación verídica, por lo tanto, ayudanos a mantenener el orden y crea con responsabilidad el perfil público de la persona que deseas, ayudando así a miles de personas a tener una vida más tranquila y segura."
+                               FontSize="15"
+                               LineHeight="1.3"
+                               Grid.Row="2"
+                               Margin="30,20,30,0"
+                               HorizontalOptions="Center"
+                   />
+
+
+
+            <Button x:Name="AcceptButton"
+                    Text="Aceptar"
+                    HeightRequest="40"
+                    BorderRadius="100"
+                    FontSize="15"
+                    BackgroundColor="#EA3A7A"
+                    Margin="60,45,60,0"
+                    Grid.Row="3"
+                    Clicked="AcceptButton_Clicked"
+                    />
 
 
 
 
         </Grid>
+
+
         
+
     </ContentPage.Content>
 </ContentPage>
