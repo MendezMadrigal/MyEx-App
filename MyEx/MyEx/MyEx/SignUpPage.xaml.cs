@@ -31,5 +31,12 @@ namespace MyEx
         {
 
         }
+
+        private void Register_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }

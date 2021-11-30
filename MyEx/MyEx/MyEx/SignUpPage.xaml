@@ -7,7 +7,7 @@
              >
     <ContentPage.Content>
 
-        <Grid RowSpacing="0" Background="#EBF5FB">
+        <Grid RowSpacing="0" Background="#F9F8F1">
 
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
@@ -117,6 +117,7 @@
                     FontAttributes="Bold"
                     Grid.Row="12"
                     Margin="40,50,40,0"
+                    Clicked="Register_Clicked"
             />
 
 

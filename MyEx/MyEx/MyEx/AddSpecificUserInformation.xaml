@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MyEx"
+             x:Class="MyEx.AddSpecificUserInformation"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+
+        <Grid RowSpacing="0" ColumnSpacing="0" BackgroundColor="#F9F8F1">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <local:CustomLabel x:Name="description"
+                               Text="A continuación, utilizaremos información más específica con el objetivo de distinguir entre personas con los mismos nombres, apellidos, genero, etc. Por favor, ingresa la información correctamente."
+                               Margin="30,15,30,0"
+                               FontSize="16"
+                               LineHeight="1.4"
+                               Grid.Row="0"
+                               Grid.Column="0"
+                               Grid.ColumnSpan="2"
+                               TextColor="Black"
+                />
+
+            <Label x:Name="cellphoneInstructions"
+                   Text="Número Telefónico"
+                   Grid.Row="1"
+                   Grid.Column="0"
+                   Margin="25,30,0,0"
+                   TextColor="Black"
+                   TextDecorations="Underline"
+                />
+
+            <Entry x:Name="cellphoneNumber"
+                   Grid.Row="2"
+                   Placeholder="### #### ###"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   Keyboard="Telephone"
+                   Margin="20,0,20,0"
+                />
+
+
+
+            
+            
+
+            <Label x:Name="emailInstructions"
+                   Text="Correo Electrónico"
+                   Grid.Row="3"
+                   Grid.Column="0"
+                   Margin="25,10,0,0"
+                   TextColor="Black"
+                   TextDecorations="Underline"
+                />
+
+            <Entry x:Name="email"
+                   Placeholder="example@myex.com"
+                   Grid.Row="4"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   Keyboard="Email"
+                   Margin="20,0,20,0"
+                />
+
+
+
+
+
+            <Label x:Name="countryInstructions"
+                   Text="País de Nacimiento"
+                   Grid.Row="5"
+                   Grid.Column="0"
+                   Margin="25,30,0,0"
+                   TextColor="Black"
+                   TextDecorations="Underline"
+                />
+
+            <Picker x:Name="Country"
+                    Title="País"
+                    HorizontalTextAlignment="Center"
+                    Grid.Row="6"
+                    Grid.Column="0"
+                    SelectedIndexChanged="Country_SelectedIndexChanged"
+                    Margin="20,0,0,0"
+                   
+                />
+
+
+
+            <Label x:Name="stateInstructions"
+                   Text="Estado de Nacimiento"
+                   Grid.Row="5"
+                   Grid.Column="1"
+                   Margin="0,30,0,0"
+                   TextColor="Black"
+                   TextDecorations="Underline"
+                />
+
+            <Picker x:Name="state"
+                    Title="Estado"
+                    HorizontalTextAlignment="Center"
+                    Grid.Row="6"
+                    Grid.Column="1"
+                    IsEnabled="False"
+                    Margin="0,0,20,0"
+                    />
+
+
+
+
+
+
+            <Label x:Name="instagramInstructions"
+                   Text="Nombre de Instagram"
+                   Grid.Row="7"
+                   Grid.Column="0"
+                   Margin="25,30,0,0"
+                   TextColor="Black"
+                   TextDecorations="Underline"
+                />
+
+            <Entry x:Name="instagram"
+                   Placeholder="Instagram"
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="8"
+                   Grid.Column="0"
+                   Margin="20,0,0,0"
+                   />
+
+
+
+
+            <Label x:Name="instagramURLInstructions"
+                   Text="URL de Instagram"
+                   Grid.Row="7"
+                   Grid.Column="1"
+                   Margin="0,30,0,0"
+                   TextColor="Black"
+                   TextDecorations="Underline"
+                />
+
+            <Entry x:Name="instagramURL"
+                   Placeholder="URL"
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="8"
+                   Grid.Column="1"
+                   Margin="0,0,20,0"
+                   />
+
+
+
+
+
+            <Label x:Name="facebookInstructions"
+                   Text="Nombre de Facebook"
+                   Grid.Row="9"
+                   Grid.Column="0"
+                   Margin="25,30,0,0"
+                   TextColor="Black"
+                   TextDecorations="Underline"
+                />
+
+            <Entry x:Name="facebook"
+                   Placeholder="Facebook"
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="10"
+                   Grid.Column="0"
+                   Margin="20,0,0,0"
+                   />
+
+
+
+
+
+
+
+            <Label x:Name="facebookURLInstructions"
+                   Text="URL de Facebook"
+                   Grid.Row="9"
+                   Grid.Column="1"
+                   Margin="0,40,0,0"
+                   TextColor="Black"
+                   TextDecorations="Underline"
+                />
+
+            <Entry x:Name="facebookURL"
+                   Placeholder="URL de Facebook"
+                   Grid.Row="10"
+                   Grid.Column="1"
+                   Margin="0,0,20,0"
+                   />
+
+
+            <Button x:Name="next"
+                    Text="Siguiente"
+                    Grid.Row="11"
+                    Grid.Column="1"
+                    HeightRequest="40"
+                    BorderRadius="100"
+                    BackgroundColor="#EA3A7A"
+                    Margin="40,30,20,0"
+                />
+
+
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

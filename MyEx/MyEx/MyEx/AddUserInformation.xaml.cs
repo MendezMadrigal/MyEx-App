@@ -30,5 +30,9 @@ namespace MyEx
             BirthDay.MaximumDate = today;
         }//end maxDate
 
+        private void next_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AddSpecificUserInformation());
+        }
     }//end class
 }//end namespace
