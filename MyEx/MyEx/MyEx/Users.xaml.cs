@@ -15,6 +15,17 @@ namespace MyEx
         public Users()
         {
             InitializeComponent();
+            var assembly = typeof(Users);
+            searchImage.Source = ImageSource.FromResource("MyEx.Assets.Images.Search.littleGirl.png");
         }
-    }
+
+        private void next_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SearchUser());
+        }//end next_Clicked
+
+
+
+
+    }//end class
 }

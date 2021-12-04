@@ -2,12 +2,61 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyEx.Users"
+              xmlns:local="clr-namespace:MyEx"
+             NavigationPage.HasNavigationBar="False"
              >
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Users!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+
+        <Grid RowSpacing="0" ColumnSpacing="0" BackgroundColor="#F9F8F1">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Frame CornerRadius="30" Grid.Row="0" HeightRequest="250" WidthRequest="250" HorizontalOptions="Center" Padding="0" BackgroundColor="Transparent"
+                   Margin="0,40,0,0">
+                <Image x:Name="searchImage"
+                       Aspect="AspectFill"
+                       HorizontalOptions="FillAndExpand"
+                       HeightRequest="250"
+                    />
+            </Frame>
+            
+            
+
+            <Label x:Name="Title"
+                   Text="¿Deseas encontrar a alguién?"
+                   FontSize="20"
+                   FontAttributes="Bold,Italic"
+                   TextColor="Black"
+                   HorizontalOptions="Center"
+                   Margin="0,50,0,0"
+                   Grid.Row="1"
+                />
+            <local:CustomLabel x:Name="notice"
+                               Text="Porfavor, ingresa un dato específico, si no conoce alguno dato de este tipo, seleccione busqueda avanzada y rellene únicamente los sectores en los cuales esta cien porciento segura que son verídicos, de lo contrario, su busqueda puede salir erronea."
+                               FontSize="15"
+                               HorizontalOptions="Center"
+                               Grid.Row="2"
+                               Margin="45,20,45,0"
+                                
+                 />
+
+            <Button x:Name="next"
+                    Text="Siguiente"
+                    HeightRequest="40"
+                    BorderRadius="100"
+                    FontSize="15"
+                    BackgroundColor="#EA3A7A"
+                    Grid.Row="3"
+                   Margin="60, 95,60,0"
+                    Clicked="next_Clicked"
+                />
+
+
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

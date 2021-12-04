@@ -5,10 +5,138 @@
              Title="Master"
              >
     <ContentPage.Content>
-        
-        <StackLayout>
-            <Button Text="Acerca de" x:Name="btnAcerca" BackgroundColor="White"/>
-            <Button Text="Click" x:Name="BteCldfj" Background="Red" Clicked="BteCldfj_Clicked"/>
-        </StackLayout>
+
+        <Grid RowSpacing="0" ColumnSpacing="0" BackgroundColor="#1A2023">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="8*"/>
+            </Grid.ColumnDefinitions>
+
+            <Frame BackgroundColor="red" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HeightRequest="150" Margin="90,20,90,0" Padding="0" CornerRadius="100" BorderColor="White" >
+                
+            </Frame>
+
+            <Image x:Name="userIcon"
+                   Source="userSliderMenu.png"
+                   Grid.Row="1"
+                   Grid.Column="0"
+                   Margin="0,30,0,0"
+                   BackgroundColor="Transparent"
+                   HeightRequest="20"
+                   
+                />
+
+            <Button x:Name="userButton"
+                    Text="Nombre de Usuario"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Margin="0,30,0,0"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Start"
+                    FontSize="14"
+                    TextColor="White"
+                    HeightRequest="35"
+                />
+            
+
+            <Image x:Name="privacy"
+                   Source="privacy.png"
+                   Grid.Row="2"
+                   Grid.Column="0"
+                   Margin="0,30,0,0"
+                   BackgroundColor="Transparent"
+                   HeightRequest="20"
+                   />
+
+            <Button x:Name="privacyButton"
+                    Text="Politica de privacidad"
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Margin="0,30,0,0"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Start"
+                    FontSize="14"
+                    TextColor="White"
+                    HeightRequest="35"
+                />
+
+            <Image x:Name="gratitudeImage"
+                   Source="gratitude.png"
+                   Grid.Row="3"
+                   Grid.Column="0"
+                   Margin="0,30,0, 0"
+                   BackgroundColor="Transparent"
+                   HeightRequest="20"
+                />
+
+            <Button x:Name="gratitudeButton"
+                    Text="Agradecimientos"
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    Margin="0,30,0,0"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Start"
+                    FontSize="14"
+                    TextColor="White"
+                    HeightRequest="35"
+                />
+
+            <Image x:Name="helpImage"
+                   Source="help.png"
+                   Grid.Row="4"
+                   Grid.Column="0"
+                   Margin="0,220,0,0"
+                   BackgroundColor="Transparent"
+                   HeightRequest="20"
+                />
+
+            <Button x:Name="helpButoon"
+                    Text="Ayuda"
+                    Grid.Row="4"
+                    Grid.Column="1"
+                    Margin="0,220,0,0"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Start"
+                    FontSize="14"
+                    TextColor="White"
+                    Padding="0"
+                    HeightRequest="35"
+                />
+
+            <Image x:Name="settingsImage"
+                   Source="settings.png"
+                   Grid.Row="5"
+                   Grid.Column="0"
+                   Margin="0,30,0,0"
+                   BackgroundColor="Transparent"
+                   HeightRequest="35"
+                />
+
+            <Button x:Name="settingsButton"
+                    Text="Configuración"
+                    Grid.Row="5"
+                    Grid.Column="1"
+                    Margin="0,30,0,0"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Start"
+                    FontSize="14"
+                    TextColor="White"
+                    HeightRequest="35"
+                />
+
+
+
+
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

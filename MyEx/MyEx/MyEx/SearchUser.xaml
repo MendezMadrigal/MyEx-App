@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="MyEx.SearchUser">
+             
+    <ContentPage.Content>
+
+
+        <Grid RowSpacing="0" BackgroundColor="#F9F8F1">
+
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Label x:Name="instruction"
+                   Text="Ingrese un dato específico"
+                   FontSize="15"
+                   HorizontalOptions="Start"
+                   Margin="25,50,0,0"
+                   Grid.Row="0"
+                   TextColor="Black"
+                />
+
+            <Entry x:Name="dataEntry"
+                   Placeholder="data"
+                   Grid.Row="1"
+                   Margin="20,10,90,0"
+                />
+
+            <Button x:Name="searchButton"
+                    Text="Buscar"
+                    Grid.Row="2"
+                    HorizontalOptions="End"
+                    BackgroundColor="#EA3A7A"
+                    BorderRadius="100"
+                    HeightRequest="40"
+                />
+
+            <Button x:Name="searchButton"
+                    Text="Busqueda Avanzada"
+                    Grid.Row="3"
+                    HorizontalOptions="End"
+                    BackgroundColor="#EA3A7A"
+                    BorderRadius="100"
+                    HeightRequest="40"
+                    FontSize="12"
+                />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

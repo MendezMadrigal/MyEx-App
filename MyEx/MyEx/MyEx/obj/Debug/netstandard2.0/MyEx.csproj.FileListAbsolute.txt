@@ -24,3 +24,4 @@ D:\Proyecto\MyEx\MyEx\MyEx\obj\Debug\netstandard2.0\Principal.xaml.g.cs
 D:\Proyecto\MyEx\MyEx\MyEx\obj\Debug\netstandard2.0\Users.xaml.g.cs
 D:\Proyecto\MyEx\MyEx\MyEx\obj\Debug\netstandard2.0\AddUserInformation.xaml.g.cs
 D:\Proyecto\MyEx\MyEx\MyEx\obj\Debug\netstandard2.0\AddSpecificUserInformation.xaml.g.cs
+D:\Proyecto\MyEx\MyEx\MyEx\obj\Debug\netstandard2.0\SearchUser.xaml.g.cs
