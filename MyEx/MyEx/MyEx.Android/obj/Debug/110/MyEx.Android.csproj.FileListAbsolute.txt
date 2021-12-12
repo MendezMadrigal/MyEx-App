@@ -701,4 +701,3 @@ D:\Proyecto\MyEx\MyEx\MyEx.Android\obj\Debug\110\android\src\mono\io\grpc\LoadBa
 D:\Proyecto\MyEx\MyEx\MyEx.Android\obj\Debug\110\android\src\mono\io\grpc\NameResolver_ListenerImplementor.java
 D:\Proyecto\MyEx\MyEx\MyEx.Android\obj\Debug\110\android\bin\classes2.dex
 D:\Proyecto\MyEx\MyEx\MyEx.Android\obj\Debug\110\android\src\crc645d7e801ee2f77102\Register.java
-D:\Proyecto\MyEx\MyEx\MyEx.Android\obj\Debug\110\MyEx.Android.csproj.CopyComplete

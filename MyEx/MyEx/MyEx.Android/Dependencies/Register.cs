@@ -28,6 +28,7 @@ namespace MyEx.Droid.Dependencies
             try
             {
                 await Firebase.Auth.FirebaseAuth.Instance.CreateUserWithEmailAndPasswordAsync(email, password);//here we register the user in the authenticate section of firestore.
+                InsertUserData(username, gender);
                 return true;
             }
             catch (FirebaseAuthWeakPasswordException error)
@@ -48,6 +49,19 @@ namespace MyEx.Droid.Dependencies
             }
         }//end Register User
 
+        private void InsertUserData(string userName, string gender)
+        {
+            var userDataDocument = new Dictionary<String, Java.Lang.Object>
+            {
+                { "userName", userName },
+                { "gender", gender },
+                { "userID", Firebase.Auth.FirebaseAuth.Instance.CurrentUser.Uid },
+            };
+
+            var collection = Firebase.Firestore.FirebaseFirestore.Instance.Collection("userData");
+            collection.Add(new HashMap(userDataDocument));
+
+        }//end InserUserData
 
 
     }//end class
