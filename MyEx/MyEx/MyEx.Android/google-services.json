@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "901419275777",
+    "project_id": "myextest-e65b6",
+    "storage_bucket": "myextest-e65b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901419275777:android:d06e6f1dba923c2b4bd200",
+        "android_client_info": {
+          "package_name": "com.companyname.myex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901419275777-3afp6h9cvej3472itnph20q1mlj4lh38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChyrkvC655NoggJyLVJfQJdVX-hU32jMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901419275777-3afp6h9cvej3472itnph20q1mlj4lh38.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "901419275777-skc37ej6gg87i9d9qlr0hjh7gultd0vs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.companyname.MyEx"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

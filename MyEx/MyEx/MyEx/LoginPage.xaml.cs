@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyEx.Helper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,17 +13,52 @@ namespace MyEx
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginPage : ContentPage
     {
+
+
+        /// 
+        /// CONSTRUCTOR
+        /// 
         public LoginPage()
         {
             
             InitializeComponent();
-        }
+        }//end constructor
 
-        private void LoginButton_Clicked(object sender, EventArgs e)
+
+
+        /// 
+        /// 
+        /// LOGIN
+        /// 
+        ///
+
+        private async void LoginButton_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new HomePage());
+
+            bool result = await Login.LoginUser(EmailEntry.Text, PasswordEntry.Text);
+
+            if (result)
+            {
+                await Navigation.PushAsync(new HomePage());
+            }//end if
+            else
+            {
+                ErrorMessage.Text = Login.error;
+            }//end else
+            
         }//end LoginButton
 
+
+
+
+
+
+
+
+
+
+
+        ////////  NAVIGATION ACTIONS //////
         private void ForgetPassword_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new ForgotenPasswordPage());
@@ -32,5 +68,7 @@ namespace MyEx
         {
             Navigation.PushAsync(new SignUpPage());
         }//end SignUp_Clicked
-    }
-}
+
+
+    }//end class
+}//end NameSpace

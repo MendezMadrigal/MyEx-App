@@ -41,7 +41,7 @@
                     HeightRequest="40"
                 />
 
-            <Button x:Name="searchButton"
+            <Button x:Name="advancedSearch"
                     Text="Busqueda Avanzada"
                     Grid.Row="3"
                     HorizontalOptions="End"

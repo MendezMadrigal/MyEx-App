@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "JGlxMyIbQEZz+Be0CEa3BrSB5tYMcWfNNXtHA41yAzZRCVOjdB+mnnHtcC7VVEU/OJLICr7LM8/Nvxq8ewzMqw==",
+  "dgSpecHash": "lFFIv4vThkOayVqEyGXR1uNb5TYaXA01ZrYv5rZhoVAuW5Rl+G+H71FuVTnZz9dVa+C0lDIIer5r59r5w6V00Q==",
   "success": true,
   "projectFilePath": "D:\\Proyecto\\MyEx\\MyEx\\MyEx.iOS\\MyEx.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jesus\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\jesus\\.nuget\\packages\\xamarin.build.download\\0.10.0\\xamarin.build.download.0.10.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\jesus\\.nuget\\packages\\xamarin.firebase.ios.auth\\6.9.2\\xamarin.firebase.ios.auth.6.9.2.nupkg.sha512",
+    "C:\\Users\\jesus\\.nuget\\packages\\xamarin.firebase.ios.cloudfirestore\\1.19.0\\xamarin.firebase.ios.cloudfirestore.1.19.0.nupkg.sha512",
+    "C:\\Users\\jesus\\.nuget\\packages\\xamarin.firebase.ios.core\\6.10.4\\xamarin.firebase.ios.core.6.10.4.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
   "logs": []

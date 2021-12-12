@@ -23,6 +23,7 @@
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
             <Entry x:Name="userName"
@@ -107,7 +108,15 @@
                    Margin="232,-27,40,0"
              />
 
-            <Button x:Name="Register"
+            <Label x:Name="errorMessage"
+                   Grid.Row="12"
+                   Margin="40,50,0,0"
+                   TextColor="Red"
+                   TextDecorations="Underline"
+                   Text=""
+             />
+
+            <Button x:Name="RegisterButton"
                     Text="Registrarse"
                     BorderRadius ="100"
                     BackgroundColor="#EA3A7A"
@@ -115,9 +124,9 @@
                     FontSize="12"
                     TextColor="#EBF5FB"
                     FontAttributes="Bold"
-                    Grid.Row="12"
-                    Margin="40,50,40,0"
-                    Clicked="Register_Clicked"
+                    Grid.Row="13"
+                    Margin="40,10,40,0"
+                    Clicked="RegisterButton_Clicked"
             />
 
 
