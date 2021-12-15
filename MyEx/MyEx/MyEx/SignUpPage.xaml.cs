@@ -48,7 +48,7 @@ namespace MyEx
 
                 if(femaleGenderCheckBox.IsChecked)
                 {
-                    gender = "Mujes";
+                    gender = "Mujer";
                 }
                 else if(maleGenderCheckBox.IsChecked)
                 {

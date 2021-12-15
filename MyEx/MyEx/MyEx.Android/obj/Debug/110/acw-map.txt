@@ -4,6 +4,9 @@ myex.droid.CustomLabelRender;crc64f322ca03cff7dd86.CustomLabelRender
 MyEx.Droid.MainActivity, MyEx.Android;crc64f322ca03cff7dd86.MainActivity
 MyEx.Droid.MainActivity;crc64f322ca03cff7dd86.MainActivity
 myex.droid.MainActivity;crc64f322ca03cff7dd86.MainActivity
+MyEx.Droid.Dependencies.Register, MyEx.Android;crc645d7e801ee2f77102.Register
+MyEx.Droid.Dependencies.Register;crc645d7e801ee2f77102.Register
+myex.droid.dependencies.Register;crc645d7e801ee2f77102.Register
 Square.OkHttp.Call+ActionCallback, Square.OkHttp;com.squareup.okhttp.Call_ActionCallback
 Square.OkHttp.Call.ActionCallback;com.squareup.okhttp.Call_ActionCallback
 com.squareup.okhttp.Call_ActionCallback;com.squareup.okhttp.Call_ActionCallback
